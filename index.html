@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Page Title</title>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        "fast-preview": { disabled: true },
+        TeX: 
+            {
+            Macros: 
+                { 
+                avg: ["{\\langle #1\\rangle}",1],
+                iprod: ["{\\langle #1, #2 \\rangle}",2],
+                bra: ["{\\langle #1|}",1],
+                ket: ["{|#1\\rangle}",1]
+                },
+            equationNumbers: { autoNumber: "AMS" }
+            },
+        tex2jax: 
+            {
+            inlineMath: [['\$','\$'] ], 
+            displayMath: [ ['@@','@@'] ]
+            },
+        "HTML-CSS": {scale: 100}
+        });
+  </script>
+</head>
+<title>Introduction to Tensor Networks</title>
 
-
-<style>
-</style>
-<script src=""></script>
 <body>
 
 <img src="img_la.jpg" alt="LA" style="width:100%">
