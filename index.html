@@ -10,42 +10,20 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
     
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        "fast-preview": { disabled: true },
-        TeX: 
-            {
-            Macros: 
-                { 
-                avg: ["{\\langle #1\\rangle}",1],
-                iprod: ["{\\langle #1, #2 \\rangle}",2],
-                bra: ["{\\langle #1|}",1],
-                ket: ["{|#1\\rangle}",1]
-                },
-            equationNumbers: { autoNumber: "AMS" }
-            },
-        tex2jax: 
-            {
-            inlineMath: [['\$','\$'] ], 
-            displayMath: [ ['@@','@@'] ]
-            },
-        "HTML-CSS": {scale: 100}
-        });
-  </script>
+<script type=”text/javascript” src=”http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML”></script>
 </head>
 <title>Introduction to Tensor Networks</title>
 
 <body>
 
 <img src="img_la.jpg" alt="LA" style="width:100%">
-<p>\begin{equation}
-T^{s_1 s_2 s_3 s_4 s_5 s_6} = \sum_{\{\mathbf{\alpha}\}} A^{s_1}_{\alpha_1} 
+<p>\T^{s_1 s_2 s_3 s_4 s_5 s_6} = \sum_{\{\mathbf{\alpha}\}} A^{s_1}_{\alpha_1} 
 A^{s_2}_{\alpha_1 \alpha_2}
 A^{s_3}_{\alpha_2 \alpha_3} 
 A^{s_4}_{\alpha_3 \alpha_4} 
 A^{s_5}_{\alpha_4 \alpha_5} 
 A^{s_6}_{\alpha_5}
-\end{equation}</p>
+</p>
 <div class="toc">
 <b>Table of Contents</b><br/><br/>
     <ul><li><a href="#toc_1">B</a></li>
